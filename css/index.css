@@ -78,6 +78,10 @@ header nav a:hover {
 	color: gray;
 }
 
+.jumbo {
+	margin-bottom: 20px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
