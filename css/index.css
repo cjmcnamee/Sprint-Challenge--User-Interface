@@ -209,3 +209,52 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-page {
+	padding: 20px;
+	border-bottom: 1px dashed black;
+}
+
+.about-page-blocks {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.about-page-blocks .block {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	width: 370px;
+	margin: 10px;
+}
+
+.about-page-blocks .block h3 {
+	margin-top: 15px;
+}
+
+.about-page-blocks .block button {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+	border-radius: 8px;
+	background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.about-page-blocks .block button:hover {
+	background-color: gray;
+	color: white;
+	border: 2px solid gray;
+}
+
+.work-together {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 22px;
+}
